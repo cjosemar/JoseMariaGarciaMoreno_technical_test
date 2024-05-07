@@ -39,3 +39,26 @@ What Will be valued:
 * Design and construction of the service.
 * Code Quality.
 * Correct results in the tests.
+
+### Installation and Getting Started
+Version JAVA: 17 
+
+Version Spring Boot: 3.2.5
+
+#### To Run the application you need to install maven and run the given command below:
+
+Run the command where you have downloaded the repository.
+
+```
+mvn clean install
+```
+Then
+```
+mvn spring-boot:run
+```
+
+#### For testing and documentation run the app 
+```
+http://localhost:8080/swagger-ui/index.html
+
+```
